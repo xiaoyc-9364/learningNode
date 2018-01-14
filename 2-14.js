@@ -1,5 +1,4 @@
 var express = require('express')
-console.log(express);
 var app = express.createServer()
 
 app.get('/', function(req, res) { res.send('Welcome to Node Twitter') })
